@@ -13,3 +13,54 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  overflow: hidden;
+}
+
+/*
+    Headaer and navigation bar styles here,
+*/
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.navicons {
+  flex: 1;
+  text-align: right;
+}
+
+.navicons > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.navicons ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14.5px;
+}
+
+.navicons ul li a:hover {
+  color: #ff5ea2;
+}
