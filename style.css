@@ -186,6 +186,9 @@
   text-align: center;
 }
 
+
+
+
 /*
     Responsive Website wiht media Queries here,
 */
@@ -199,16 +202,54 @@
     right: 0;
     z-index: 2;
   }
+
   .navicons ul li {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .navicons ul li a {
     color: white;
   }
 
   .menu-icon {
     display: block;
+  }
+
+  #menuList {
+    overflow: hidden;
+    transition: 0.4s;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+
+  .col-2 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+    margin-top: 48px;
+  }
+
+  .col-2 .controller {
+    width: 77%;
+  }
+
+  .col-2 .color-box {
+    transform: translateX(75px);
+  }
+
+  .col-1 {
+    flex-basis: 100%;
+  }
+
+  .col-1 h2 {
+    font-size: 38px;
+  }
+
+  .col-1 h3 {
+    font-size: 15px;
   }
 }
