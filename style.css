@@ -64,3 +64,69 @@
 .navicons ul li a:hover {
   color: #ff5ea2;
 }
+
+/*
+    Header content styles here,
+*/
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.row .col-1 {
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.col-1 h2 {
+  font-size: 54px;
+}
+.col-1 h3 {
+  font-size: 30px;
+  color: #707070;
+  font-weight: 100;
+  margin: 20px 0 10px;
+}
+
+.col-1 p {
+  font-size: 16px;
+  color: #b7b7b7;
+  font-weight: 100;
+}
+
+.col-1 h4 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.col-1 button {
+  width: 140px;
+  padding: 12px 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background: linear-gradient(to right, #fb5283, #ff3527);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width 0.5s;
+}
+
+.col-1 button > img {
+  width: 30px;
+  display: none;
+}
+
+.col-1 button:hover img {
+  display: block;
+}
+
+.col-1 button:hover {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
