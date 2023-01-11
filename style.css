@@ -130,3 +130,15 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.col-1::after {
+  content: " ";
+  width: 10px;
+  height: 57%;
+  background: linear-gradient(#ff469f, #ff6062);
+  position: absolute;
+  left: -40px;
+  top: 8px;
+  
+
+}
