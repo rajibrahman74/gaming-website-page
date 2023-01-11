@@ -174,3 +174,13 @@
   width: 35px;
   margin-bottom: 5px;
 }
+
+.social-icons img {
+  height: 13px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.social-icons {
+  text-align: center;
+}
